@@ -46,10 +46,10 @@ build_pubspec() {
   dart pub get  
   
   # Install the dart_frog cli from pub.dev
-  dart pub global activate dart_frog_cli
+  #dart pub global activate dart_frog_cli
   
   # 📦 Create a production build
-  dart_frog build
+  #dart_frog build
   
   dart pub global activate webdev
   if [ -d "web" ]
