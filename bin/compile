@@ -45,6 +45,9 @@ build_pubspec() {
   #start pub from the /app folder to have correct symlink paths
   dart pub get  
   
+  # Install the dart_frog cli from pub.dev
+  dart pub global activate dart_frog_cli
+  
   dart pub global activate webdev
   if [ -d "web" ]
   then
